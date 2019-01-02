@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Linear_padding">16dp</dimen>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="textview_width">20dp</dimen>
+    <dimen name="textview_height">20dp</dimen>
+    <dimen name="textSize2">12sp</dimen>
+    <dimen name="textViewBotMarg">6dp</dimen>
+    <dimen name="LinearPad">16dp</dimen>
+    <dimen name="textViewBotMarg2">8dp</dimen>
+    <dimen name="textViewRightMarg">15dp</dimen>
+    <dimen name="textViewBotMarg3">15dp</dimen>
+</resources>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layoutBackground"
+    android:orientation="vertical"
+    android:padding="@dimen/LinearPad">
+
+    <TextView
+        android:id="@+id/webUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/textViewBotMarg"
+        android:gravity="start"
+        android:textColor="@color/textViewColor"
+        android:textSize="@dimen/textSize"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/webTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/textViewBotMarg"
+        android:gravity="start"
+        android:textColor="@color/textViewColor"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/webPubDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/textViewBotMarg2"
+        android:textColor="@color/textViewColor"
+        android:textSize="@dimen/textSize2"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/sectionId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/textViewBotMarg3"
+            android:layout_marginRight="@dimen/textViewRightMarg"
+            android:textColor="@color/textViewColor"
+            android:textSize="@dimen/textSize"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/sectionId"
+            android:layout_toRightOf="@+id/sectionId"
+            android:textColor="@color/textViewColor"
+            android:textSize="@dimen/textSize"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+    <View style="@style/Separtor" />
+
+</LinearLayout>
